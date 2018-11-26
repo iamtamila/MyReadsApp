@@ -10,7 +10,6 @@ class Search extends Component {
         query: "",
         books: [],
         quickView: {},
-        showModal: false
     };
 
     queryTimer = null;
@@ -75,7 +74,7 @@ class Search extends Component {
                                 <Book
                                     book={book}
                                     onChangeShelf={this.props.onChangeShelf}
-                                    onUpdateQuickView={this.updateQuickView} />
+                                    />
                             </li>
                         ))}
                     </ol>

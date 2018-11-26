@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Shelf from "./Shelf"
 
 class Bookcase extends Component {
-    state = {}
+    
     componentDidMount = () => {
         this.props.onRefreshAllBooks();
     }
